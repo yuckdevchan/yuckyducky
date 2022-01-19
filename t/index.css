@@ -1,0 +1,182 @@
+html, body {
+  width:  100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+	background-color: LightYellow;
+	font-family: "Roboto";
+}
+
+.container {
+	position: absolute;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+#title {
+	font-family: "Staatliches";
+	font-size: 90px;
+	top: 35%;
+	left: 50%;
+	-webkit-text-stroke: 3px black; /* width and color */
+	transform: translate(-50%, -50%);
+	display: flex;
+}
+
+#title span {
+	padding:0px;
+	margin: 0px;
+}
+
+#title :nth-child(1) {
+	color: FireBrick;
+}
+
+#title :nth-child(2) {
+	color: rgb(216, 148, 0);
+}
+
+#title :nth-child(3) {
+	color: Gold;
+}
+
+#title :nth-child(4) {
+	color: SeaGreen;
+}
+
+#title :nth-child(5) {
+	color: RoyalBlue;
+}
+
+#title :nth-child(6) {
+	color: RebeccaPurple;
+}
+
+#pause-menu,
+#game-over-menu {
+	background-color: rgba(100, 100, 100, 1);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 400px;
+	width: 440px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border: black 4px solid;
+	color: white;
+}
+
+#pause-menu{
+	background-color: rgba(100, 100, 100, 1);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 400px;
+	width: 440px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border: black 4px solid;
+	color: white;
+}
+
+#pause-menu p,
+#game-over-menu p {
+	font-size: 50px;
+	text-align: center;
+}
+
+#restart-button,
+#game-over-restart-button {
+	background-color: FireBrick !important;
+}
+
+#start-button {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: MediumSeaGreen;
+	border: none;
+	color: white;
+	padding: 12px 0px;
+	width: 140px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 19px;
+	border: black 4px solid;
+	border-radius: 15px;
+}
+
+#pause-menu button,
+#game-over-menu button {
+	background-color: MediumSeaGreen;
+	border: none;
+	color: white;
+	padding: 12px 0px;
+	margin: 5px;
+	width: 140px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 19px;
+	border: black 4px solid;
+	border-radius: 15px;
+}
+
+#score-menu {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	color: black;
+}
+
+#game-over-label {
+	margin: 50px 0px 0px 0px;
+}
+
+#game-over-score-label {
+	color: white;
+	font-family: "Righteous";
+	font-size: 30px !important;
+	margin: 40px 0px 40px 0px;
+}
+
+#level-menu {
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	color: black;
+}
+
+#score-menu p, #level-menu p {
+	font-size: 19px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#score-label, #level-label {
+	font-family: "Righteous";
+	font-size: 40px !important;
+}
+
+*.unselectable {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+ }

@@ -1,0 +1,20 @@
+{
+  "name": "js-tetris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle65463/js-tetris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyle65463/js-tetris/issues"
+  },
+  "homepage": "https://kyle65463.github.io/js-tetris/"
+}

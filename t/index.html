@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tetris</title>
+		<link rel="stylesheet" href="./index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Staatliches&family=Righteous&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		
+		<script type="module" src="./index.js"></script>
+		<audio id="strike-sound" src="./assets/strike.wav"></audio>
+		<title>Document</title>
+	</head>
+	<body class="unselectable">
+		<div id="main-container" class="container">
+			<canvas></canvas>
+		</div>
+
+		<div id="title" class="container">
+			<span>T</span>
+			<span>E</span>
+			<span>T</span>
+			<span>R</span>
+			<span>I</span>
+			<span>S</span>
+		</div>
+
+		<div id="score-menu" class="container">
+			<p>分數:</p>
+			<p id="score-label">0</p>
+		</div>
+
+		<div id="level-menu" class="container">
+			<p>等級:</p>
+			<p id="level-label">1</p>
+		</div>
+
+		<button id="start-button">開始遊戲</button>
+
+		<div id="pause-menu" class="container invisible">
+			<p>暫停遊戲</p>
+			<button id="continue-button">繼續</button>
+			<button id="home-button">主頁</button>
+			<button id="restart-button">重新開始</button>
+		</div>
+
+		<div id="game-over-menu" class="container invisible">
+			<p id="game-over-label">遊戲結束</p>
+			<div id="game-over-score-container">
+				<p id="game-over-score-label">分數: 0</p>
+			</div>
+			<button id="game-over-home-button">主頁</button>
+			<button id="game-over-restart-button">重新開始</button>
+		</div>
+	</body>
+</html>
