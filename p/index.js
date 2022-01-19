@@ -547,7 +547,7 @@
 				context.textAlign = 'center';
 				context.textBaseline = 'middle';
 				context.fillStyle = '#FFF';
-				context.fillText('Pac-Man',this.x,this.y);
+				context.fillText('BIG WILL C',this.x,this.y);
 			}
 		});
 		//版权信息
