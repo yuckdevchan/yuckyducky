@@ -559,7 +559,7 @@
 				context.textAlign = 'right';
 				context.textBaseline = 'bottom';
 				context.fillStyle = '#AAA';
-				context.fillText('BIG WILL C IS A FURRY',this.x,this.y);
+				context.fillText('BIG WILLY C IS A FURRY',this.x,this.y);
 			}
 		});
 		//事件绑定
