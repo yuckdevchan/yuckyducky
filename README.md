@@ -1,4 +1,2 @@
 # yuckyducky
-very cool
-i am the guy
-https://theuselessweb.com/
+FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK
