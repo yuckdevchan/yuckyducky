@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "net.treehousetech.games.Mine2048"
+        versionCode = "10" 
+        version     = "0.9.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Mine2048</name>
+
+    <description>
+        A Minecraft 2048 Clone 
+    </description>
+
+    <author href="http://treehousetech.net/" email="contact@treehousetech.net">
+        Treehouse Tech.
+    </author>
+	
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	
+	<plugin name='AdMobPlugin' value='com.google.cordova.plugin.AdMobPlugin'/>
+
+</widget>
