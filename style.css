@@ -17,3 +17,16 @@ h3 {
 p {
   color: #b3c7d9
 }
+
+      a:link {
+        color: #fcfc0a;
+      }
+      a:visited {
+        color: #ffca66;
+      }
+      a:hover {
+        color: #00ff2e;
+      }
+      a:active {
+        color: #00ff2e;
+      }
