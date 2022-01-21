@@ -3,10 +3,17 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #fcb228;
+}
+
+h2 {
+  color: #fcb228;
+}
+
+h3 {
+  color: #b3c7d9;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+  color: #b3c7d9
 }
