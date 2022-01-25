@@ -155,7 +155,7 @@ function gameOver() {
 		AudioPlayer.playClickAudio();
 		gameReset();
 	};
-	gameOverScoreLabel.innerHTML = "分數: " + score.toString();
+	gameOverScoreLabel.innerHTML = "Score: " + score.toString();
 }
 
 function gameRestart() {
