@@ -1,2 +1,2 @@
 # yuckyducky
-FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK
+Code for the website https://www.yuck.ga
