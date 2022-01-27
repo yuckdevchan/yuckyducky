@@ -87,20 +87,6 @@
         sctx.drawImage(this.sprite,this.x,y);
     }
  };
- const pipe = {
-     top : {sprite : new Image()},
-     bot : {sprite : new Image()},
-     gap:85,
-     moved: true,
-     pipes : [],
-     draw : function(){
-        for(let i = 0;i<this.pipes.length;i++)
-        {
-            let p = this.pipes[i];
-            sctx.drawImage(this.top.sprite,p.x,p.y)
-            sctx.drawImage(this.bot.sprite,p.x,p.y+parseFloat(this.top.sprite.height)+this.gap)
-        }
-     },
      update : function(){
          if(state.curr!=state.Play) return;
          if(frames%100==0)
