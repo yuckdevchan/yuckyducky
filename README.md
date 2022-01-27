@@ -1,2 +1,2 @@
 # yuckyducky
-Code for the website https://www.yuck.ga
+Code for the website: https://www.yuck.ga
