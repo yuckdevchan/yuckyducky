@@ -11,3 +11,5 @@ yuck.ga is a website used to bypass school, work and public WiFi firewall blocki
 - 2048
 - Pac Person
 - Tetronimoes
+
+The password is: chukwudi
